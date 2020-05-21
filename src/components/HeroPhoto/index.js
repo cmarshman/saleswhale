@@ -9,17 +9,17 @@ const HeroPhoto = () => {
         <>
             <div className='columns'>
                 <div className='column is-four-fifths' id='hero-photo1'>
-                    <img src={desktopView} alt="hero" />
+                    <img src={desktopView} alt='hero' />
                 </div>
             </div>
             <div className='columns'>
                 <div className='column is-four-fifths' id='hero-photo2'>
-                    <img src={tabletView} alt="hero" className="is-clearfix"/>
+                    <img src={tabletView} alt='hero' className='is-clearfix'/>
                 </div>
             </div>
             <div className='columns'>
                 <div className='column is-four-fifths' id='hero-photo3'>
-                    <img src={mobileView} alt="hero" />
+                    <img src={mobileView} alt='hero' />
                 </div>
             </div>
 

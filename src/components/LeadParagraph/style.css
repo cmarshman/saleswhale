@@ -1,0 +1,27 @@
+#tile {
+    margin: 0 auto;
+    padding-left: 10px;
+}
+
+.title{
+    font-family: source-sans-pro;
+    font-size: 58px;
+    font-style: bold;
+    line-height: 62px;
+    line-height: 85%;
+    color: #002240;
+}
+
+#paragraph1{
+    font-family: source-sans-pro;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 32px;
+    line-height: 141%;
+    color: #002240;
+
+}
+@font-face {
+    font-family: source-sans-pro;
+    src: url('../../Font/SourceSansPro-Regular.ttf')
+}
