@@ -9,8 +9,8 @@ const LeadParagraph = () => {
                     <p className="title">A future where AI and humans work hand in hand</p>
                 </div>
                 <div className="column is-three-fifths columns">
-                    <div className="column is-one-fifth"></div>
-                    <div className="column is-four-fifths">
+                    {/* <div className="column is-one-fifth"></div> */}
+                    <div className="column is-full" id="main-info">
                     <p id='paragraph1'>At Saleswhale, we believe that the future of work is Collaborative Intelligence - where machines and AI help humans fulfil their highest potential by automating drudgery and producing for more effective results.</p>
                     <br/>
                     <p id='paragraph1'>AI assistants help to automate repetitive and mundane tasks so that us humans focus on creative, high-impact work that creates value and inspires. The result? Happier and more productive teams doing meaningful work.</p>

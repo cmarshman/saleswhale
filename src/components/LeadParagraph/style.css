@@ -12,6 +12,11 @@
     color: #002240;
 }
 
+#main-info{
+    width:90%!important;
+    margin-left: 85px;
+}
+
 #paragraph1{
     font-family: source-sans-pro;
     font-size: 18px;
