@@ -1,0 +1,72 @@
+#nav{
+    margin-left: 116px;
+    margin-right: 118px;
+}
+
+#menu{
+    margin: 0 auto;
+}
+
+.menuText {
+    font-family: source-sans-pro;
+    font-weight: bold;
+    margin-right: 10px
+}
+
+@font-face {
+    font-family: source-sans-pro;
+    src: url(./Source_Sans_Pro/SourceSansPro-Regular.ttf)
+}
+
+#loginBtn {
+    background-color: #ffffff;
+    color: #0688fa;
+    border: 1px solid #0688fa;
+    border-radius: 5px;
+    font-family: source-sans-pro;
+    font-weight: bold;
+}
+
+#demoBtn {
+    background-color: #0688fa;
+    color: #ffffff;
+    border-radius: 5px;
+    font-family: source-sans-pro;
+    font-weight: bold;
+}
+
+#loginBtn:hover {
+    background-color: #0688fa;
+    color: #ffffff;
+}
+
+#demoBtn:hover {
+    background-color: #ffffff;
+    color: #0688fa;
+    border: 1px solid #0688fa;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1023px){
+    #loginBtn, #demoBtn{
+        display: none
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    #loginBtn, #demoBtn, .menuText{
+        display: none
+    }
+    #nav{
+        margin: unset;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #loginBtn, #demoBtn, .menuText{
+        display: none
+    }
+    #nav{
+        margin: unset;
+    }
+}
