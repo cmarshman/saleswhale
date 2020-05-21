@@ -1,14 +1,13 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import HeroPhoto from '../components/HeroPhoto';
 
-const Home = () =>{
+const Login = () =>{
     return(
         <>
         <Navbar/>
-        <HeroPhoto/>
+        
         </>
     );
 }
 
-export default Home;
+export default Login;

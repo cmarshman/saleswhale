@@ -70,3 +70,8 @@
         margin: unset;
     }
 }
+
+#hero-photo{
+    margin: 0 auto;
+    margin-top: 60px;
+}

@@ -10,6 +10,9 @@
 .menuText {
     font-family: source-sans-pro;
     font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    line-height: 100%;
     margin-right: 10px
 }
 
