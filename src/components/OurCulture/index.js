@@ -7,7 +7,7 @@ const OurCulture = () => {
         <>
             <div className="container">
                 <p className="has-text-centered" id="culture">Our Culture</p>
-                <p className="has-text-centered is-centered" id="description">At Saleswhale, we encourage everyone to grow and innovate, while having fun in the process. </p>
+                <p id="description">At Saleswhale, we encourage everyone to grow and innovate, while having fun in the process. </p>
                 <div className="tile is-10" id="change">
                     <div className="columns is-multiline">
                     <div className="column is-one-third" id="column">
@@ -27,9 +27,9 @@ const OurCulture = () => {
                     </div>
                     </div>
                 </div>
-                <p className="has-text-centered" id="talk">If you are excited by our vision of the future, and want to solve meaningful problems, talk to us!</p>
-                <div className="columns" id="centerBtn">
-                    <a className="column is-4 is-offset-4 button is-primary" href="*" id="btn">
+                <p id="talk">If you are excited by our vision of the future, and want to solve meaningful problems, talk to us!</p>
+                <div className="columns has-text-centered" id="centerBtn">
+                    <a className="column  is-4 is-offset-4 button is-primary" href="*" id="btn">
                         Join the team
                     </a>
                 </div>
