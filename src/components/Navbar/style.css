@@ -63,6 +63,9 @@
     #nav{
         margin: unset;
     }
+    #logo{
+        margin-left: 45px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -71,5 +74,8 @@
     }
     #nav{
         margin: unset;
+    }
+    #logo{
+        margin-left: 25px;
     }
 }

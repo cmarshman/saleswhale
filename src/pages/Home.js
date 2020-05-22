@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import HeroPhoto from '../components/HeroPhoto';
 import LeadParagraph from '../components/LeadParagraph';
 import OurCulture from '../components/OurCulture';
+import OurProgress from '../components/OurProgress';
 
 const Home = () =>{
     return(
@@ -11,6 +12,7 @@ const Home = () =>{
         <HeroPhoto/>
         <LeadParagraph/>
         <OurCulture/>
+        <OurProgress/>
         </>
     );
 }

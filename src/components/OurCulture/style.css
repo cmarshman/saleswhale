@@ -64,7 +64,7 @@
     font-family: source-sans-pro;
     font-size: 18px;
     line-height: 32px;
-    color: #537089;
+    color: #537089!important;
     width: 50%;
     float: right
 }
@@ -143,7 +143,7 @@
     }
     #description{
         vertical-align: top;
-        width:85%;
+        width:86%;
         margin-left: 55px;
         text-align: unset!important;
     }
@@ -151,6 +151,7 @@
         width: 100%;
         float: left;
         margin-left: 20px;
+        margin-top: -30px;
     }
     #btn{
         margin-right: 10px;
@@ -158,7 +159,7 @@
         height: 49px;
     }
     #talk{
-        margin-top:860px;
+        margin-top:800px;
         width: 80%;
         font-size: 16px;
         margin-left: 50px;
