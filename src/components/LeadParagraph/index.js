@@ -1,15 +1,16 @@
 import React from 'react';
 import './style.css';
 
+
 const LeadParagraph = () => {
+
     return (
         <>
-            <div className="tile columns is-10 is-mobile" id="tile">
-                <div className="column is-two-fifths">
+            <div className="tile columns is-10" id="tile">
+                <div className="column is-two-fifths purpleDuck">
                     <p className="title">A future where AI and humans work hand in hand</p>
                 </div>
-                <div className="column is-three-fifths columns">
-                    {/* <div className="column is-one-fifth"></div> */}
+                <div className="column is-three-fifths columns purpleDuck">
                     <div className="column is-full" id="main-info">
                     <p id='paragraph1'>At Saleswhale, we believe that the future of work is Collaborative Intelligence - where machines and AI help humans fulfil their highest potential by automating drudgery and producing for more effective results.</p>
                     <br/>
