@@ -1,0 +1,100 @@
+#culture{
+    font-family: source-sans-pro;
+    font-size: 58px;
+    line-height: 62px;
+    font-weight: bold;
+    color: #002240;
+    margin-top: 132px;
+}
+
+@font-face {
+    font-family: source-sans-pro;
+    src: url(../../Font/SourceSansPro-Regular.ttf)
+}
+
+#description{
+    font-family: source-sans-pro;
+    margin-top: 21px;
+    color: #537089;
+    font-size: 21px;
+    line-height: 38px;
+}
+
+#talk{
+    font-family: source-sans-pro;
+    font-size: 21px;
+    line-height: 38px;
+    color: #002240;
+    margin-top: 47px;
+}
+
+#btn{
+    font-family: source-sans-pro;
+    background-color: #0688fa;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+#centerBtn{
+    margin-top: 20px;
+}
+
+#animePic{
+    margin-top: 53px;
+}
+
+#subtitle {
+    font-family: source-sans-pro;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 34px;
+    color: #002240;
+    margin-top: 18px;
+}
+
+#discribe {
+    font-family: source-sans-pro;
+    font-size: 18px;
+    line-height: 32px;
+    color: #537089;
+    width: 50%;
+    float: right
+}
+
+#talk{
+    font-family: source-sans-pro;
+}
+
+@media screen and (max-width: 768px){
+    #culture{
+        font-family: source-sans-pro;
+        font-size: 32px;
+        line-height: 40px;
+        font-weight: bold;
+        color: #002240;
+        margin-top: 580px;
+        margin-left: 50px;
+    }
+    #description{
+        font-family: source-sans-pro;
+        margin-top: 21px;
+        color: #537089;
+        font-size: 16px;
+        line-height: 24px;
+        width: 55%;
+        margin-left: 190px;
+    }
+    #discribe {
+        font-family: source-sans-pro;
+        font-size: 16px;
+        line-height: 24px;
+        color: #537089;
+        width: 90%;
+        float: right;
+    }
+    #change{
+        width: 30%;
+        margin-left: 50px;
+        margin-top: 38px;
+    }
+}

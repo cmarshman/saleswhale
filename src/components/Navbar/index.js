@@ -13,7 +13,7 @@ const Navbar = () => {
         <nav className="navbar" role="navigation" aria-label="main navigation" id="nav">
         <div className="navbar-brand">
             <Link to='/' className="navbar-item" href="*" id="logo">
-                <img src={Logo} width="112" height="28" alt='logo'/>
+                <img src={Logo} width="186" height="32" alt='logo'/>
             </Link>
         </div>
 

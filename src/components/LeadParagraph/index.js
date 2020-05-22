@@ -5,8 +5,8 @@ import './style.css';
 const LeadParagraph = () => {
 
     return (
-        <>
-            <div className="tile columns is-10" id="tile">
+        <> 
+        <div className="tile columns is-10" id="tile">
                 <div className="column is-two-fifths purpleDuck">
                     <p className="title">A future where AI and humans work hand in hand</p>
                 </div>
