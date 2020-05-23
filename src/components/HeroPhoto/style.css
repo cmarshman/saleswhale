@@ -3,13 +3,9 @@
     margin-top: 60px;
 }
 
-#hero-photo2{
+#hero-photo2, #hero-photo3{
     display: none;
 
-}
-
-#hero-photo3{
-    display: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -25,10 +21,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    #hero-photo1{
-        display: none;
-    }
-    #hero-photo2{
+    #hero-photo1, #hero-photo2{
         display: none;
     }
     #hero-photo3{

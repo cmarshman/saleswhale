@@ -1,0 +1,55 @@
+#progress{
+    font-family: source-sans-pro;
+    font-size: 58px;
+    font-weight: bold;
+    line-height: 62px;
+    letter-spacing: -1%;
+    color: #002240;
+    margin-top: 101px;
+}
+
+@font-face {
+    font-family: source-sans-pro;
+    src: url(../../Font/SourceSansPro-Regular.ttf)
+}
+
+#timeLine1{
+    margin-top: 64px;
+    margin-left: 90px
+}
+
+#timeLine2, #timeLine3{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    #progress{
+        font-size: 34px;
+        line-height: 40px;
+        margin-top: 90px;
+    }
+    #timeLine1{
+        display: none;
+    }
+    #timeLine2{
+        display: block;
+        margin-top: 43.58px;
+        margin-left: 69px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #timeLine1, #timeLine2{
+        display: none;
+    }
+    #timeLine3 {
+        display: block;
+        margin-top: 35px;
+        margin-left: 30px;
+    }
+    #progress {
+        margin-top: 55px;
+        margin-left: 35px;
+    }
+
+}
