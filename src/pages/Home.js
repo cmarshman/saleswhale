@@ -4,6 +4,8 @@ import HeroPhoto from '../components/HeroPhoto';
 import LeadParagraph from '../components/LeadParagraph';
 import OurCulture from '../components/OurCulture';
 import OurProgress from '../components/OurProgress';
+import OurOffices from '../components/OurOffices';
+import OurInvestors from '../components/OurInvestors';
 
 const Home = () =>{
     return(
@@ -13,6 +15,8 @@ const Home = () =>{
         <LeadParagraph/>
         <OurCulture/>
         <OurProgress/>
+        <OurOffices/>
+        <OurInvestors/>
         </>
     );
 }

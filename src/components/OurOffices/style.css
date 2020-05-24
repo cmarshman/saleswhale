@@ -1,0 +1,51 @@
+#mainBackground{
+    background-image: url('../../images/backGround.png');
+}
+
+.banana{
+    margin: 0 auto;
+    margin-top: 67px!important;
+}
+
+#tile1{
+    margin: 0px 40px 24px 152px;
+    height: 283px!important;
+    width:  528px!important;
+}
+
+#tile2{
+    margin: 0px 152px 24px 40px;
+    height: 283px!important;
+    width:  528px!important;
+}
+
+#animePic2{
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+@font-face {
+    font-family: source-sans-pro;
+    src: url(../../Font/SourceSansPro-Regular.ttf)
+}
+
+.officeCity{
+    font-weight: bold;
+    color: #002240;
+    font-size: 32px;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 19px;
+    font-family: source-sans-pro;
+}
+
+.officeAddress{
+    font-weight: normal;
+    color: #002240;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    font-family: source-sans-pro;
+}

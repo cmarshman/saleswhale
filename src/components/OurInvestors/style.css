@@ -1,0 +1,63 @@
+#mainbackground2{
+    background-image: url('../../images/ourculture.png');
+    margin-top: -135px;
+    background-repeat: no-repeat;
+}
+
+#investors{
+    font-family: source-sans-pro;
+    font-size: 58px;
+    line-height: 62px;
+    font-weight: bold;
+    color: #002240;
+    margin-top: 132px;
+    padding-top: 132px;
+}
+
+#tile3{
+    margin: 0px 40px 33.5px 107px;
+    height: 283px!important;
+    width:  528px!important;
+}
+
+#ycombinator{
+    height: 101px;
+    width: 358px;
+    margin: 85px 81px 87px 89px;
+}
+
+#tile4{
+    margin: 0px 152px 33.5px 40px;
+    height: 283px!important;
+    width:  528px!important;
+}
+
+#mhv{
+    height: 137px;
+    width: 275px;
+    margin: 60px 125px 86px 128px;
+}
+
+#tile5{
+    margin: 0px 40px 33.5px 107px;
+    height: 283px!important;
+    width:  528px!important;
+}
+
+#strive{
+    height: 55px;
+    width: 226px;
+    margin: 115px 151px 113px 151px;
+}
+
+#tile6{
+    margin: 0px 152px 33.5px 40px;
+    height: 283px!important;
+    width:  528px!important;
+}
+
+#wavemaker{
+    height: 140px;
+    width: 304px;
+    margin: 68px 109px 71px 115px;
+}

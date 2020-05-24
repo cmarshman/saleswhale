@@ -38,4 +38,4 @@ const OurCulture = () => {
     )
 }
 
-export default OurCulture
+export default OurCulture;
