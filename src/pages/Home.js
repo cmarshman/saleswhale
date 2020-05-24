@@ -6,6 +6,7 @@ import OurCulture from '../components/OurCulture';
 import OurProgress from '../components/OurProgress';
 import OurOffices from '../components/OurOffices';
 import OurInvestors from '../components/OurInvestors';
+import Future from '../components/Future';
 
 const Home = () =>{
     return(
@@ -17,6 +18,7 @@ const Home = () =>{
         <OurProgress/>
         <OurOffices/>
         <OurInvestors/>
+        <Future/>
         </>
     );
 }

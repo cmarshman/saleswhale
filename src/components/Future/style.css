@@ -1,0 +1,51 @@
+#future{
+    background-color: #329dfa;
+    height: 398.53px;
+    width: 1313.82px;
+    padding: 31.47px 64px 39px 62.18px;
+    margin-top: 113px;
+    margin-bottom: 87px;
+}
+
+@font-face {
+    font-family: source-sans-pro;
+    src: url(../../Font/SourceSansPro-Regular.ttf)
+}
+
+#mimossa{
+    margin: 124.53px 57px 17px 58.82px;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: bold;
+    font-family: source-sans-pro;
+    color: #ffffff;
+    text-align: center;
+}
+
+#btnFun{
+    margin-right: 200px!important;    
+}
+
+#aDemo{
+    height: 62px;
+    width: 272px;
+    font-weight: bold;
+    color: #002240;
+    font-family: source-sans-pro;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#useCase{
+    height: 62px;
+    width: 272px;
+    font-weight: bold;
+    background-color: #329dfa;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+

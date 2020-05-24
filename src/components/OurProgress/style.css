@@ -1,4 +1,9 @@
+#progress{
+    margin-bottom: 64px;
+}
+
 #timeline{
     background-color: #EFF8FE;
     width: 150%;
 }
+
