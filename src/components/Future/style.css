@@ -13,7 +13,7 @@
 }
 
 #mimossa{
-    margin: 124.53px 57px 17px 58.82px;
+    margin: 90px 57px 40px 58.82px;
     font-size: 48px;
     line-height: 58px;
     font-weight: bold;
@@ -23,7 +23,7 @@
 }
 
 #btnFun{
-    margin-right: 200px!important;    
+    justify-content: center;
 }
 
 #aDemo{
@@ -36,6 +36,15 @@
     line-height: 23px;
     text-align: center;
     text-decoration: none;
+    margin-right: 14.5;
+    border: 1px #ffffff solid;
+    border-radius: 5px;
+}
+
+#aDemo:hover {
+    background-color: #002240;
+    color: #ffffff;
+    border: 1px #002240 solid;
 }
 
 #useCase{
@@ -47,5 +56,11 @@
     border: 1px solid #ffffff;
     box-sizing: border-box;
     border-radius: 5px;
+    margin-left: 14.5px;
+}
+
+#useCase:hover {
+    background-color: #ffffff;
+    color: #329dfa;
 }
 
