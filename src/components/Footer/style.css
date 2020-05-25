@@ -1,0 +1,28 @@
+#blueCow{
+    background-color: #F4F4F4;
+}
+
+#privacy, #terms{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: source-sans-pro;
+    line-height: 21px;
+    color: #002240;
+}
+
+#copywrite{
+    font-size: 18px;
+    font-family: source-sans-pro;
+    line-height: 21px;
+    color: #002240;
+}
+
+#facebook, #twitter, #linkedin {
+    height: 40.19px;
+    width: 40.19px;
+}
+
+@font-face {
+    font-family: source-sans-pro;
+    src: url('../../Font/SourceSansPro-Regular.ttf')
+}

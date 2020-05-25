@@ -8,6 +8,8 @@ import OurOffices from '../components/OurOffices';
 import OurInvestors from '../components/OurInvestors';
 import Future from '../components/Future';
 
+import Footer from '../components/Footer';
+
 const Home = () =>{
     return(
         <>
@@ -19,6 +21,8 @@ const Home = () =>{
         <OurOffices/>
         <OurInvestors/>
         <Future/>
+
+        <Footer/>
         </>
     );
 }
