@@ -29,7 +29,7 @@ const OurCulture = () => {
                 </div>
                 <p id="talk">If you are excited by our vision of the future, and want to solve meaningful problems, talk to us!</p>
                 <div className="columns has-text-centered" id="centerBtn">
-                    <a className="column  is-4 is-offset-4 button is-primary" href="*" id="btn">
+                    <a className="column  is-4 is-offset-4 button is-primary" href="https://jobs.lever.co/saleswhale/" id="btn">
                         Join the team
                     </a>
                 </div>

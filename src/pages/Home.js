@@ -7,7 +7,7 @@ import OurProgress from '../components/OurProgress';
 import OurOffices from '../components/OurOffices';
 import OurInvestors from '../components/OurInvestors';
 import Future from '../components/Future';
-
+import SiteMap from '../components/SiteMap';
 import Footer from '../components/Footer';
 
 const Home = () =>{
@@ -21,7 +21,7 @@ const Home = () =>{
         <OurOffices/>
         <OurInvestors/>
         <Future/>
-
+        <SiteMap/>
         <Footer/>
         </>
     );

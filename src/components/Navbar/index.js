@@ -1,12 +1,10 @@
 import React from 'react';
 import './style.css';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Logo from '../../images/sw-logo.svg';
 
 
 const Navbar = () => {
-
-    const location = useLocation();
     
     return(
         <>
@@ -19,27 +17,27 @@ const Navbar = () => {
 
         <div id="navbarBasicExample" className="navbar-menu" >
             <div className="navbar-start" id="menu">
-                <Link to='/why'className={location.pathname === '/why' ? "navbar-item is-active menuText": "navbar-item menuText"}>
+                <a href="https://www.saleswhale.com/about" className="navbar-item menuText" target="_blank" rel="noopener noreferrer">
                     Why Saleswhale?
-                </Link>
-                <Link to='/product'className={location.pathname === '/product' ? "navbar-item is-active menuText": "navbar-item menuText"}>
+                </a>
+                <a href="https://www.saleswhale.com/platform" className="navbar-item menuText" target="_blank" rel="noopener noreferrer">
                     Product
-                </Link>
-                <Link to='company' className={location.pathname === '/company' ? "navbar-item is-active menuText": "navbar-item menuText"}>
+                </a>
+                <a href="https://www.saleswhale.com/" className="navbar-item menuText" target="_blank" rel="noopener noreferrer">
                     Company
-                </Link>
+                </a>
             </div>
         </div>
 
         <div className="navbar-end">
             <div className="navbar-item">
                 <div className="buttons">
-                    <Link to='/login' className="button is-primary" id="loginBtn">
+                    <a href="https://app.saleswhale.com/login" className="button is-primary" id="loginBtn" target="_blank" rel="noopener noreferrer">
                         Log In
-                    </Link>
-                    <Link to='/demo' className="button is-light" id="demoBtn">
+                    </a>
+                    <a href="https://www.saleswhale.com/get-a-free-demo?ref=topNav" className="button is-light" id="demoBtn" target="_blank" rel="noopener noreferrer">
                         Get a Demo
-                    </Link>
+                    </a>
                 </div>
             </div>
         </div>
