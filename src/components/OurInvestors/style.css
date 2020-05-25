@@ -2,7 +2,6 @@
     background-image: url('../../images/investorBackground.png');
     margin-top: -135px;
     background-repeat: no-repeat;
-    
 }
 
 #investors{
@@ -61,4 +60,10 @@
     height: 140px;
     width: 304px;
     margin: 68px 109px 71px 115px;
+}
+
+@media screen and (max-width: 768px){
+    #mainBackground2{
+        background-image: url('');
+    }
 }

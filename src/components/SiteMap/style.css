@@ -1,0 +1,20 @@
+@font-face {
+    font-family: source-sans-pro;
+    src: url('../../Font/SourceSansPro-Regular.ttf')
+}
+
+.siteTitle{
+    font-weight: bolder;
+}
+
+.siteTitle, .siteLinks {
+    color: #002240;
+    font-family: source-sans-pro;
+    font-size: 18px;
+    line-height: 42px;
+    text-decoration: none;
+}
+
+#footerH{
+    border-top: 50px;
+}

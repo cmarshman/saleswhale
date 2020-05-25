@@ -8,7 +8,6 @@ import OurOffices from '../components/OurOffices';
 import OurInvestors from '../components/OurInvestors';
 import Future from '../components/Future';
 import SiteMap from '../components/SiteMap';
-import Footer from '../components/Footer';
 
 const Home = () =>{
     return(
@@ -22,7 +21,6 @@ const Home = () =>{
         <OurInvestors/>
         <Future/>
         <SiteMap/>
-        <Footer/>
         </>
     );
 }

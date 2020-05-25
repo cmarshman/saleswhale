@@ -1,5 +1,17 @@
 #blueCow{
     background-color: #F4F4F4;
+    height: 332px;
+    margin-top: 80px;
+
+}
+
+#footerImage{
+    margin-top: 99px;
+}
+
+@font-face {
+    font-family: source-sans-pro;
+    src: url('../../Font/SourceSansPro-Regular.ttf')
 }
 
 #privacy, #terms{
@@ -8,21 +20,35 @@
     font-family: source-sans-pro;
     line-height: 21px;
     color: #002240;
+    margin-top: 60px;
 }
-
 #copywrite{
     font-size: 18px;
     font-family: source-sans-pro;
     line-height: 21px;
     color: #002240;
 }
-
+#terms{
+    margin-left: -360px;
+}
+#social{
+    margin-left: 190px;
+    margin-bottom: -300px;
+}
 #facebook, #twitter, #linkedin {
     height: 40.19px;
     width: 40.19px;
 }
 
-@font-face {
-    font-family: source-sans-pro;
-    src: url('../../Font/SourceSansPro-Regular.ttf')
+#facebook{
+    margin: 60px 0px 233.36px 0px;
 }
+
+#twitter {
+    margin: 60px 29.37px 233.36px 27.82px;
+}
+
+#linkedin{
+    margin: 60px 0px 233.36px 0px;
+}
+

@@ -1,5 +1,15 @@
 #mainBackground{
     background-image: url('../../images/backGround.png');
+    background-repeat: no-repeat;
+}
+
+#offices{
+    font-family: source-sans-pro;
+    font-size: 58px;
+    line-height: 62px;
+    font-weight: bold;
+    color: #002240;
+    margin-top: 132px;
 }
 
 .banana{
@@ -48,4 +58,62 @@
     line-height: 32px;
     text-align: center;
     font-family: source-sans-pro;
+}
+
+@media screen and (max-width: 768px){
+    #mainBackground{
+        background-image: url('../../images/officeTablet.png')!important;
+        padding-bottom: 25px;
+        background-repeat: no-repeat;
+    }
+    #offices{
+        font-family: source-sans-pro;
+        font-size: 32px;
+        line-height: 40px;
+        font-weight: bold;
+        color: #002240;
+        margin-left: 50px;
+    }
+    #tile1{
+        height: 199px!important;
+        width:  271px!important;
+        margin: 64px 0px 0px 92px;
+        float: left;
+    }
+    
+    #tile2{
+        height: 199px!important;
+        width:  271px!important;
+        margin: 64px 80px 75px 54px;
+        float: left;
+    }
+
+    #animePic2{
+        height: 56px;
+        width: 56px;
+        margin: 0 auto!important;
+        align-items: center;
+        margin-left: 95px!important;
+    }
+    .officeCity{
+        font-weight: bold;
+        color: #002240;
+        font-size: 26px;
+        line-height: 34px;
+        text-align: center;
+        margin-top: 10px;
+        font-family: source-sans-pro;
+    }
+    .officeAddress{
+        font-weight: normal;
+        color: #002240;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        font-family: source-sans-pro;
+    }
+    .banana{
+        margin: 0 auto;
+        margin-top: 64px!important;
+    }
 }
