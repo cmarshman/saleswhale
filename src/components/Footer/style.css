@@ -1,12 +1,12 @@
 #blueCow{
     background-color: #F4F4F4;
-    height: 332px;
     margin-top: 80px;
+    margin-bottom: -10px;
 
 }
 
 #footerImage{
-    margin-top: 99px;
+    margin-top: 80px;
 }
 
 @font-face {
@@ -51,4 +51,49 @@
 #linkedin{
     margin: 60px 0px 233.36px 0px;
 }
+#footerImage2{
+    display: none;
+}
+@media screen and (max-width: 768px){
 
+    #footerImage{
+        display: none;
+    }
+    #footerImage2{
+        display: block;
+        margin-top: 30px;
+    }
+    #privacy{
+        margin: 44.88px 0px 60px 67px;
+        float: left;
+    }
+    #terms{
+        margin: 20px 5px 60px 10px;
+        float: left;
+    }
+    #social{
+        float: right;
+        margin-right: 69.01px;
+    }
+    #facebook, #twitter, #linkedin {
+        height: 28.12px;
+        width: 28.12px;
+    }
+    #facebook{
+        margin: 0px 0px 165.08px 0px;
+    }
+    
+    #twitter {
+        margin: 0px 19.27px 165.08px 19.47px;
+    }
+    
+    #linkedin{
+        margin: 0px 0px 165.08px 0px;
+    }
+    #copywrite{
+        margin-top: 90px;
+        margin-left: 69px;
+        font-size: 14px;
+        line-height: 11px;
+    }
+}

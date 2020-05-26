@@ -4,6 +4,7 @@ import FooterImage from '../../images/foot.png';
 import Facebook from '../../images/facebook.png';
 import Twitter from '../../images/twitter.png';
 import LinkedIn from '../../images/linkedIn.png';
+import FooterImageTablet from '../../images/FooterImageTablet.png'
 
 const Footer = () => {
     return (
@@ -32,7 +33,8 @@ const Footer = () => {
                     </div>
                     <p id="copywrite">© 2020 Saleswhale, Inc. All rights reserved.</p>
                 </div>
-                <img src={FooterImage} alt="footerImage" id="footerImage" />
+                <img src={FooterImage} alt="footerImage" id="footerImage"/>
+                <img src={FooterImageTablet} alt="footerImage" id="footerImage2"/>
             </div>
         </>
     );
