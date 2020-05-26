@@ -137,25 +137,25 @@
     }
 }
 
-@media screen and (max-width: 321px){
+@media screen and (max-width: 320px){
     #culture{
-        margin-right: 125px;
+        margin-left: -127px;
         font-size: 28px;
     }
     #description{
         vertical-align: top;
         width:86%;
-        margin-left: 55px;
+        margin-left: 30px;
         text-align: unset!important;
     }
     #column{
-        width: 100%;
+        width: 95%;
         float: left;
-        margin-left: 20px;
+        margin-left: 0px;
         margin-top: -30px;
     }
     #btn{
-        margin-right: 10px;
+        margin-right: 35px;
         width: 272px;
         height: 49px;
     }
@@ -163,7 +163,7 @@
         margin-top:800px;
         width: 80%;
         font-size: 16px;
-        margin-left: 50px;
+        margin-left: 30px;
         line-height: 24px;
         text-align: unset!important;
     }
