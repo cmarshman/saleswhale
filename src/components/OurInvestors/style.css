@@ -16,8 +16,8 @@
 
 #tile3{
     margin: 0px 40px 33.5px 107px;
-    height: 283px!important;
-    width:  528px!important;
+    height: 283px;
+    width:  528px;
 }
 
 #ycombinator{
@@ -28,8 +28,8 @@
 
 #tile4{
     margin: 0px 152px 33.5px 40px;
-    height: 283px!important;
-    width:  528px!important;
+    height: 283px;
+    width:  528px;
 }
 
 #mhv{
@@ -40,8 +40,8 @@
 
 #tile5{
     margin: 0px 40px 33.5px 107px;
-    height: 283px!important;
-    width:  528px!important;
+    height: 283px;
+    width:  528px;
 }
 
 #strive{
@@ -52,8 +52,8 @@
 
 #tile6{
     margin: 0px 152px 33.5px 40px;
-    height: 283px!important;
-    width:  528px!important;
+    height: 283px;
+    width:  528px;
 }
 
 #wavemaker{
@@ -63,7 +63,58 @@
 }
 
 @media screen and (max-width: 768px){
-    #mainBackground2{
-        background-image: url('');
+    #mainbackground2{
+        background-image: url('../../images/mainBackground2Tablet.png')!important;
+        padding-top: 1px;
+        margin-top: 0px;
+        height: 300px;
     }
+    #investors{
+        font-family: source-sans-pro;
+        font-size: 32px;
+        line-height: 40px;
+        font-weight: bold;
+        color: #002240;
+        margin-left: 50px;
+        margin-top: -100px;
+    }
+    #tile3, #tile4, #tile5, #tile6{
+        width: 272px!important;
+        height: 145.79px!important;
+        float: left;
+    }
+    #tile3{
+        margin: 126px 0px 59.21px 92px;
+    }
+    #tile4{
+        margin: 126px 44px 59.21px 54px;
+    }
+    #tile5{
+        margin: 0px 54px 49.21px 92px!important;
+    }
+    #tile6{
+        margin: 0px 44px 49.21px 0px!important;
+    }
+
+    #ycombinator{
+        height: 62px;
+        width: 220px;
+        margin: 44px 24px 39.79px 28px;
+    }
+    #mhv{
+        height: 86px;
+        width: 172px;
+        margin: 25px 49px 34.79px 52px;
+    }
+    #strive{
+        height: 39px;
+        width: 160px;
+        margin: 54px 56px 52.79px 56px;
+    }
+    #wavemaker{
+        height: 86px;
+        width: 187px;
+        margin: 28px 41px 31.79px 44px;
+    }
+
 }

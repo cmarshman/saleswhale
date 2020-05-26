@@ -64,3 +64,9 @@
     color: #329dfa;
 }
 
+@media screen and (max-width: 768px){
+    #future{
+        margin-top: 600px;
+    }
+}
+

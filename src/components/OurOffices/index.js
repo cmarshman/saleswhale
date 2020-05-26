@@ -9,8 +9,7 @@ const OurOffices = () => {
                 <p className="has-text-centered" id="offices">Our Offices</p>
             </div>
             <div id='mainBackground'>
-                <div className="container">
-                    <div className="tile is-ancestor columns">
+                    <div className="tile is-ancestor columns" id="officesGroup">
                         <div className="tile is-vertical column is-one-fifth banana box " id="tile1">
                             <img src={Anime} alt='anime character' id='animePic2' />
                             <p className='officeCity'>Singapore</p>
@@ -24,7 +23,6 @@ const OurOffices = () => {
                             <p className="officeAddress">Washington, DC 20036</p>
                         </div>
                     </div>
-                </div>
             </div>
         </>
     );
