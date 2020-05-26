@@ -47,11 +47,14 @@
         display: block;
         margin-top: 35px;
         margin-left: -30px;
+        margin-bottom: -20px;
         width: 100%;
     }
     #progress {
         margin-top: 55px;
         margin-left: 0px;
+        font-size: 28px;
+        line-height: 110%;
     }
 
 }

@@ -121,7 +121,7 @@
         margin: 0 auto;
         margin-top: 64px!important;
     }
-
+}
 @media screen and (max-width: 320px) {
     #mainBackground{
         background-image: url('../../images/OurOffices.png');
@@ -130,8 +130,22 @@
         height: 275px;
         /* margin-bottom: -1px;
         margin-top: 60.58px; */
-
+    }
+    #offices{
+        font-size: 28px;
+        line-height: 110%;
+        margin-right: 80px;
+    }
+    #tile1, #tile2{
+        height: 199px;
+        width: 271px;
+    }
+    #tile1{
+        margin-left: 35px!important;
+        margin-bottom: 37px!important;
+    }
+    #tile2{
+        margin-left: 35px!important;
     }
 }
 
-}
