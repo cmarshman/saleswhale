@@ -5,13 +5,14 @@ import Facebook from '../../images/facebook.png';
 import Twitter from '../../images/twitter.png';
 import LinkedIn from '../../images/linkedIn.png';
 import FooterImageTablet from '../../images/FooterImageTablet.png'
+import FooterImageMobile from '../../images/FooterImageMobile.png'
 
 const Footer = () => {
     return (
         <>
             <div id="blueCow">
                 <div className="container">
-                    <div className="tile is-ancestor columns">
+                    <div className="tile is-ancestor columns" >
                         <div className="column is-one-third">
                             <a href="https://www.saleswhale.com/privacy" id="external-links" target="_blank" rel="noopener noreferrer"><p id="privacy">Privacy</p></a>
                         </div>
@@ -35,6 +36,9 @@ const Footer = () => {
                 </div>
                 <img src={FooterImage} alt="footerImage" id="footerImage"/>
                 <img src={FooterImageTablet} alt="footerImage" id="footerImage2"/>
+            </div>
+            <div id="create">
+                <img src={FooterImageMobile} alt='mobile-footer' id="mobile-footer" />
             </div>
         </>
     );

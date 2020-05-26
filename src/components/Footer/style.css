@@ -54,6 +54,9 @@
 #footerImage2{
     display: none;
 }
+#create{
+    display: none;
+}
 @media screen and (max-width: 768px){
 
     #footerImage{
@@ -96,4 +99,16 @@
         font-size: 14px;
         line-height: 11px;
     }
+}
+
+@media screen and (max-width: 320px) {
+   #blueCow{
+       display: none;
+   }
+   #create{
+       display: block
+   }
+
+
+
 }

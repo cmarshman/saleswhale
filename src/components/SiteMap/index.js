@@ -9,7 +9,7 @@ const SiteMap = () => {
     return (
         <>
         <div id="footerH">
-            <div className="container">
+            <div className="container" id="play">
                 <div className="tile is-ancestor columns">
                     <div className="column is-one-fifth" id="column1">
                         <Link to='/'  href="*" id="logo">
@@ -71,16 +71,15 @@ const SiteMap = () => {
                         </a>
                     </div>
                     <div className="column is-one-fifth" id="column5">
-                        <p className="siteTitle">Contact</p>
+                        <p className="siteTitle" id="contacts">Contact</p>
                         <a href="mailto: hello@saleswhale.com" className="siteLinks">hello@saleswhale.com</a>
                         <br/>
                         <a href="https://goo.gl/maps/VHAU8KiXom655a5Q7" className="siteTitle">US Office</a>
                         <p className="siteLinks">1701 Rhode Island Ave NW Washington, DC 20036</p>
                         <a href="https://goo.gl/maps/mTjrrjfn3X9s33ej7" className="siteTitle">Singapore Office</a>
                         <p className="siteLinks">155B Telok Ayer Street Singapore, O68611</p>
-
                     </div>
-                </div>
+                </div>  
             </div>
             <Footer />
             </div>
