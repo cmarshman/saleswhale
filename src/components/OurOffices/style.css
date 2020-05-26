@@ -121,4 +121,17 @@
         margin: 0 auto;
         margin-top: 64px!important;
     }
+
+@media screen and (max-width: 320px) {
+    #mainBackground{
+        background-image: url('../../images/OurOffices.png');
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 275px;
+        /* margin-bottom: -1px;
+        margin-top: 60.58px; */
+
+    }
+}
+
 }

@@ -91,4 +91,15 @@
         width: 168px
     }
 }
+@media screen and (max-width: 320px){
+    #future{
+        background-image: url('../../images/futureMobile.png');
+        background-color: #ffffff;
+        height: 377px;
+        width: 320px;
+        padding: 31.47px 64px 39px 62.18px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
 
