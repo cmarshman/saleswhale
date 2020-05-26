@@ -2,7 +2,8 @@ import React from 'react';
 import './style.css';
 import Footer from '../Footer';
 import { Link } from 'react-router-dom';
-import Logo from '../../images/sw-logo.svg'
+import Logo from '../../images/sw-logo.svg';
+import SiteMapImg from '../../images/siteMap.png';
 
 const SiteMap = () => {
 
@@ -10,7 +11,7 @@ const SiteMap = () => {
         <>
         <div id="footerH">
             <div className="container" id="play">
-                <div className="tile is-ancestor columns">
+                <div className="tile is-ancestor columns" id="playful">
                     <div className="column is-one-fifth" id="column1">
                         <Link to='/'  href="*" id="logo">
                             <img src={Logo} alt='logo' id="logoPic"/>
@@ -79,6 +80,9 @@ const SiteMap = () => {
                         <a href="https://goo.gl/maps/mTjrrjfn3X9s33ej7" className="siteTitle">Singapore Office</a>
                         <p className="siteLinks">155B Telok Ayer Street Singapore, O68611</p>
                     </div>
+                </div>
+                <div>
+                    <img src={SiteMapImg} alt='siteMap' id="siteMap" />
                 </div>  
             </div>
             <Footer />

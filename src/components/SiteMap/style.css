@@ -24,6 +24,10 @@
     border-top: 50px;
 }
 
+siteMap{
+    display: none;
+}
+
 @media screen and (max-width: 768px){
     #logoPic{
         height: 17.95px!important;
@@ -63,42 +67,10 @@
 
 }
 @media screen and (max-width: 320px){
-    #logoPic{
-        height: 22px!important;
-        width: 127.59px!important;
-        margin-right: 120px;
+    #playful{
+        display: none;
     }
-    #column1{
-        float: left;
+    #siteMap{
+        display: block;
     }
-    #column2{
-        font-style: normal;
-        float: left;
-        margin-left: 24px;
-        margin-right: 0px!important;
-        padding: 0px;
-        height: 270px;
-        width: 123px;
-    }
-    #column3{
-        float: left;
-        margin-right: 0px;
-        margin-left: 15px;
-        margin-top: -10px;
-    }
-    #column4{
-        float: left;
-        margin-top: 90px;
-        margin-left: 12px!important ;
-    }
-    #column5{
-        margin-left: 140px;
-        width: 53%;
-        
-    }
-    #siteLinks{
-        line-height: 20px;
-        margin-bottom: 3px;
-    }
-
 }
