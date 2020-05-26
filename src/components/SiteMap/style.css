@@ -3,6 +3,11 @@
     src: url('../../Font/SourceSansPro-Regular.ttf')
 }
 
+#logo{
+    width: 193.15px; 
+    height: 33px;
+}
+
 .siteTitle{
     font-weight: bolder;
 }
@@ -17,4 +22,43 @@
 
 #footerH{
     border-top: 50px;
+}
+
+@media screen and (max-width: 768px){
+    #logoPic{
+        height: 17.95px!important;
+        width: 103.13px!important;
+    }
+    .siteTitle, .siteLinks{
+        font-size: 16px;
+        line-height: 32px;
+    }
+    #column1{
+        float: left;
+        margin-right: 105.88px;
+    }
+    #column2{
+        float: left;
+        margin-right: 80px;
+        margin-bottom: 22px;
+    }
+    #column3{
+        float: left;
+        margin-bottom: 70px;
+        height: 201px;
+        width: 181px;
+    }
+    #column4{        
+        float: left;
+        height: 214px;
+        width: 178px;
+        margin-left: 271px;
+        margin-right: 110px;
+        margin-bottom: 50px;
+        padding-top: 0px!important;
+    }
+    #column5{
+        margin-top: 25px;
+    }
+
 }

@@ -66,7 +66,7 @@
         background-repeat: no-repeat;
         width: 100%;
         height: 275px;
-        margin-bottom: 0px;
+        margin-bottom: -1px;
         margin-top: 60.58px;
     }
     
@@ -81,7 +81,7 @@
     #tile1{
         height: 199px!important;
         width:  271px!important;
-        margin: 64px 0px 0px 92px;
+        margin: 0px 0px 0px 92px!important;
         float: left;
 
     }
@@ -89,7 +89,7 @@
     #tile2{
         height: 199px!important;
         width:  271px!important;
-        margin: 64px 80px 0px 54px;
+        margin: 0px 80px 0px 54px!important;
         float: left;
     }
 

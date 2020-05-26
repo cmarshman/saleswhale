@@ -11,12 +11,12 @@ const SiteMap = () => {
         <div id="footerH">
             <div className="container">
                 <div className="tile is-ancestor columns">
-                    <div className="column is-one-fifth">
-                        <Link to='/' className="navbar-item" href="*" id="logo">
-                            <img src={Logo} width="193.15" height="33" alt='logo' />
+                    <div className="column is-one-fifth" id="column1">
+                        <Link to='/'  href="*" id="logo">
+                            <img src={Logo} alt='logo' id="logoPic"/>
                         </Link>
                     </div>
-                    <div className="column is-one-fifth" >
+                    <div className="column is-one-fifth" id="column2">
                         <p className="siteTitle">Why Saleswhale</p>
                         <a href="*" className="siteLinks" target="_blank" rel="noopener noreferrer">
                             <p>Collaborative Intelligence</p>
@@ -37,7 +37,7 @@ const SiteMap = () => {
                             <p>Use Case - Events</p>
                         </a>
                     </div>
-                    <div className="column is-one-fifth" >
+                    <div className="column is-one-fifth" id="column3">
                         <p className="siteTitle">Product</p>
                         <a href="*" className="siteLinks" target="_blank" rel="noopener noreferrer">
                             <p>AI Conversations</p>
@@ -52,7 +52,7 @@ const SiteMap = () => {
                             <p>Workflow Integration</p>
                         </a>
                     </div>
-                    <div className="column is-one-fifth" >
+                    <div className="column is-one-fifth" id="column4">
                         <p className="siteTitle">Company</p>
                         <a href="*" className="siteLinks" target="_blank" rel="noopener noreferrer">
                             <p>About us</p>
@@ -70,7 +70,7 @@ const SiteMap = () => {
                             <p>Help Centre</p>
                         </a>
                     </div>
-                    <div className="column is-one-fifth" >
+                    <div className="column is-one-fifth" id="column5">
                         <p className="siteTitle">Contact</p>
                         <a href="mailto: hello@saleswhale.com" className="siteLinks">hello@saleswhale.com</a>
                         <br/>
