@@ -39,6 +39,7 @@
     margin-right: 14.5;
     border: 1px #ffffff solid;
     border-radius: 5px;
+    box-shadow: 0px 5px 15px
 }
 
 #aDemo:hover {
@@ -66,7 +67,28 @@
 
 @media screen and (max-width: 768px){
     #future{
-        margin-top: 600px;
+        margin-top: 220px;
+        height: 215px;
+        width: 724px;
+        padding: 3px 10px 2px 24px;
+        border-radius: 5px;
+
+    }
+    #mimossa{
+        font-size: 28px;
+        line-height: 34px;
+        margin-top: 40px!important;
+    }
+    #aDemo{
+        height: 43px;
+        width: 146px;
+        font-size: 18px!important;
+        line-height: 23px;
+
+    }
+    #useCase{
+        height: 43px;
+        width: 168px
     }
 }
 
