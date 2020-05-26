@@ -118,4 +118,43 @@
     }
 
 }
+@media screen and (max-width: 320px){
+    #mainbackground2{
+        background-image: url('../../images/investorMobile.png')!important;
+        height: 864px;
+    }
+    #investors{
+        margin-right: 60px;
+    }
+    #tile3{
+        margin-left: 30px;
+        margin-top: 50px!important;
+        margin-bottom: 40.21px;
+    }
+    #ycombinator{
+        margin: 30px 24px 39.79px 24px;
+    }
+    #tile4{
+        margin-left: 30px;
+        margin-top: 0px!important;
+        margin-bottom: 40.21px;
+    }
+    #mhv{
+        margin: 25px 49px 34.79px 37px!important;
+    }
+    #tile5{
+        margin-left: 32px!important;
+        margin-bottom: 40.21px;
+        margin-left: 31px!important;
+    }
+    #strive{
+        margin: 44px 56px 52.79px 40px!important;
+    }
+    #tile6{
+        margin-left: 31px!important;
+    }
+    #wavemaker{
+        margin: 20px 41px 31.79px 25px!important;
+    }
 
+}
