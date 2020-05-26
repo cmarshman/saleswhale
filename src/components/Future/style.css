@@ -97,9 +97,33 @@
         background-color: #ffffff;
         height: 377px;
         width: 320px;
-        padding: 31.47px 64px 39px 62.18px;
         margin-top: 0px;
         margin-bottom: 0px;
     }
+    /* #aDemo, #useCase{
+        height: 49px!important;
+        width: 272px!important;
+    } */
+    #aDemo{
+        margin-bottom: 21px;
+        box-shadow: 0px 5px 15px;
+        height: 49px!important;
+        width: 292px!important;
+    }
+    #useCase{
+        margin-left: 0px;
+        height: 49px!important;
+        width: 272px!important;
+    }
+    #mimossa{
+        height: 117px;
+        width: 270px;
+        font-size: 32px;
+        line-height: 40px;
+        margin-left: 0px!important;
+        margin-top: 100px!important;
+        margin-bottom: -20px;
+    }
+       
 }
 
